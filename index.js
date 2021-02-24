@@ -1,5 +1,4 @@
 addEventListener("DOMContentLoaded",() => {
-   const earht = document.querySelector(".earth");
    const MoveEarht = document.querySelector(".moveEarth");
    const stars = document.querySelector(".stars");
    let ImageSpeed = 1;
