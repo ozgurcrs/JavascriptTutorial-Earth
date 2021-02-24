@@ -5,8 +5,8 @@ addEventListener("DOMContentLoaded",() => {
    let ImageSpeed = 1;
    setInterval(() => {
     MoveEarht.style.right = ImageSpeed+'px';
-    earht.style.transform = "rotate("+ImageSpeed/50+"deg)"
-    stars.style.transform =  "rotate("+ImageSpeed/10+"deg)"
+    stars.style.transform = 'rotate('+ImageSpeed/10+'deg)';
+
     
     if(ImageSpeed % 500 == 0){
         const createImage = document.createElement("img");
